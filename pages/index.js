@@ -1,7 +1,5 @@
 import React from 'react'
 import Head from 'next/head'
-import styled from 'styled-components'
-import { GlobalStyles } from 'styles/global'
 
 // TODO: Add the forms kitchen sink
 
@@ -11,8 +9,6 @@ const Home = () => (
       <title>Home</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
-
-    <GlobalStyles />
 
     <div className="container">
       <div>
