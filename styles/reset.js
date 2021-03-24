@@ -1,6 +1,6 @@
 import { css } from 'styled-components'
 
-export const resetCSS = css`
+export const ResetCSS = css`
   /* Remove default padding */
   ul,
   ol {
