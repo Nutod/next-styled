@@ -1,9 +1,11 @@
-import {} from '../styles/reset'
+import { GlobalStyles } from 'styles/global'
 
 function MyApp({ Component, pageProps }) {
+  //   console.log(ResetCSS)
+
   return (
     <>
-    
+      <GlobalStyles />
       <Component {...pageProps} />
     </>
   )
