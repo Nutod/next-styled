@@ -32,6 +32,7 @@ export const reset = css`
   body {
     min-height: 100vh;
     text-rendering: optimizeSpeed;
+    padding: 2rem;
   }
 
   /* Remove list styles on ul, ol elements with a class attribute */
