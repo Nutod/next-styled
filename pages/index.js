@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import { Button } from 'reakit/Button'
 
 // TODO: Add the forms kitchen sink
 
@@ -12,6 +13,7 @@ const Home = () => (
 
     <div className="container">
       <div>
+        <Button>I am from Reakit</Button>
         <h1>Level 1 heading</h1>
         <h2>0123456789</h2>
         <p>

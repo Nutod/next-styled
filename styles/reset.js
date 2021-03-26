@@ -49,6 +49,8 @@ export const reset = css`
   img {
     max-width: 100%;
     display: block;
+    box-shadow: var(--elevation-four);
+    border-radius: 10px;
   }
 
   /* Inherit fonts for inputs and buttons */
