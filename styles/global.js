@@ -1,10 +1,10 @@
 import { createGlobalStyle } from 'styled-components'
 import { reset } from './reset'
 import { ELEMENTS } from './elements'
-import { critical } from './critical'
+import { CRITICAL } from './critical'
 
 export const GlobalStyles = createGlobalStyle`
   ${reset}
-  ${critical}
+  ${CRITICAL}
   ${ELEMENTS}
 `

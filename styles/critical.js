@@ -1,6 +1,6 @@
 import { css } from 'styled-components'
 
-export const critical = css`
+export const CRITICAL = css`
   :root {
     --color-primary: #00ebc7;
     --color-primary-glare: #5cffe7;
