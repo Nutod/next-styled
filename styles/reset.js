@@ -1,6 +1,6 @@
 import { createGlobalStyle, css } from 'styled-components'
 
-export const reset = css`
+export const RESET = css`
   /* Remove default padding */
   ul,
   ol {
@@ -73,4 +73,4 @@ export const reset = css`
   }
 `
 
-export const ResetCSS = createGlobalStyle`${reset}`
+export const ResetCSS = createGlobalStyle`${RESET}`

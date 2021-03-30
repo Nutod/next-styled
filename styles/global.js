@@ -1,10 +1,14 @@
 import { createGlobalStyle } from 'styled-components'
-import { reset } from './reset'
+import { RESET } from './reset'
 import { ELEMENTS } from './elements'
 import { CRITICAL } from './critical'
 
 export const GlobalStyles = createGlobalStyle`
-  ${reset}
+  ${'' /* Reset all CSS styles to make things more consistent */}
+  ${RESET}
+
+  ${'' /* Mostly global variables here */}
   ${CRITICAL}
+
   ${ELEMENTS}
 `
