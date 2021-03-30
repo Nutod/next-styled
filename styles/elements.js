@@ -1,6 +1,6 @@
 import { css } from 'styled-components'
 
-export const elements = css`
+export const ELEMENTS = css`
   button {
     color: var(--btn-clr, var(--textColor));
     background: var(--btn-bg-clr, var(--color-primary));
