@@ -15,10 +15,6 @@ export const elements = css`
       box-shadow: var(--elevation-three);
     }
 
-    ${'' /* &:focus {
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-    } */}
-
     &:active {
       transform: translateY(1px);
     }
