@@ -1,6 +1,6 @@
 import { css } from 'styled-components'
 
-export const ELEMENTS = css`
+export const TYPOGRAPHY = css`
   html {
     font-size: 100%;
   } /*16px*/
@@ -14,7 +14,6 @@ export const ELEMENTS = css`
   h3,
   h4,
   h5 {
-    margin: 3rem 0 1.38rem;
     font-family: var(--font-display);
     font-weight: 400;
     line-height: 1.3;

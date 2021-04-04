@@ -13,7 +13,6 @@ const Home = () => (
     <div className="container">
       <div>
         <h1>Level 1 heading</h1>
-        <h2>0123456789</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
           reprehenderit velit minus, doloribus <a href="#">ratione</a> atque
