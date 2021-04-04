@@ -2,17 +2,24 @@ import { css } from 'styled-components'
 
 export const ELEMENTS = css`
   button {
+    all: unset;
     color: var(--btn-clr, var(--textColor));
     background: var(--btn-bg-clr, var(--color-primary));
     border: none;
     border-radius: 2px;
-    padding: 11px 30px;
+    padding: 9px 30px;
     cursor: pointer;
-    box-shadow: var(--elevation-two);
+    margin: 1rem 0;
+    ${'' /* box-shadow: var(--elevation-two); */}
     transition: all 0.2s;
 
     &:hover {
       box-shadow: var(--elevation-three);
+    }
+
+    &:focus {
+      box-shadow: 0px 0px 0px 1px hsl(171deg 90% 13% / 30%),
+        0px 0px 0px 5px hsl(171deg 100% 68% / 40%);
     }
 
     &:active {
