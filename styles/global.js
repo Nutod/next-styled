@@ -11,4 +11,8 @@ export const GlobalStyles = createGlobalStyle`
   ${CRITICAL}
 
   ${ELEMENTS}
+
+  body {
+    font-family: var(--font-body);
+  }
 `
