@@ -1,5 +1,15 @@
-// Trying out all the reakit ui components here
+import React from 'react'
+import Head from 'next/head'
 
-// Trying out Adobe? I don't know yet. Actually, it looks rather interesting
+const Reakit = () => (
+  <div>
+    <Head>
+      <title>Reakit</title>
+      <link rel="icon" href="/favicon.ico" />
+    </Head>
 
-// maybe we could add it on there
+    <button>Button Component</button>
+  </div>
+)
+
+export default Reakit
